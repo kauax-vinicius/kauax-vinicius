@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #e1e3eb;
+}
+
+.container-geral-formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 540px;
+    width:55%;
+    gap: 25px;
+    background-color: #818292;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 3px solid #424992;
+    border-radius: 20px;
+    color:#010422;
+    box-shadow: 0px 0px  15px #010422;
+}
+
+
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    font-size: 16px;
+   
+}
+
+.container-nomes{
+    display: flex;
+    flex-direction: column;
+    gap:7px;
+    padding: 2%;
+    border: 2px solid #424992 ;
+    border-radius: 15px;
+    color:#010422;
+
+}
+
+.container-objetivo{
+    display: flex;
+    gap: 32px;
+    color:#010422;
+}
+
+
+.container-sobre-voce{
+    display: flex;
+    flex-direction:column;
+    gap: 5px;
+
+
+}
+
+.container-sobre-voce textarea{
+    border: 2px solid #424992 ;
+    border-radius: 15px;
+    width: 99%;
+    height: 110px;
+
+}
+
+
+
+.container-objetivo input{
+    cursor: pointer;
+  
+
+}
+
+.container-senioridade select {
+    border: 2px solid  #424992;
+    border-radius:20px;
+    cursor: pointer;
+
+}
+
+.container-button{
+    width: 100%;
+    height:40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.container-button button{
+    width:35%;
+    height:40px;
+    background-color: #5b6092;
+    color: white;
+    text-align: center;
+    border: 3px solid  #424992;
+    border-radius:20px;
+    font-size: 17px;
+    cursor: pointer;
+    
+
+}
+
+.container-nomes input{
+    width: 42%;
+    border: 1px solid #010422 ;
+    border-radius: 10px;
+}
+
+.container-sobrenome input{
+    width: 35%;
+}
+
+.container-inicio{
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+@media  (min-width:1px) and (max-width:375px){
+
+    .container-geral-formulario {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 555px; 
+        width:80%;
+        gap: 25px;
+        font-size: 13px;
+       
+    }
+
+
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        gap: 17px;
+        font-size: 13px;
+        max-width: 90%; 
+        max-height: 100%; 
+    }
+
+    .container-objetivo{
+        display: flex;
+        flex-direction: column;
+        gap: 17px;
+        gap: 5px;
+        
+
+    }
+
+
+
+}
+
+
+@media  (min-width:1px) and (max-width:375px){
+
+    .container-geral-formulario {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 555px; 
+        width:80%;
+        gap: 25px;
+        font-size: 13px;
+       
+    }
+
+
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        gap: 17px;
+        font-size: 13px;
+        max-width: 90%; 
+        max-height: 100%; 
+    }
+
+    .container-objetivo{
+        display: flex;
+        flex-direction: column;
+        gap: 17px;
+        gap: 5px;
+        
+
+    }
+
+
+
+}
+
+
+@media  (min-width:376px) and (max-width:390px){
+
+    .container-geral-formulario {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 700px; 
+        width:82%;
+        gap: 25px;
+        font-size: 14px;
+       
+    }
+
+
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        gap: 36px;
+        font-size: 19px;
+        max-width: 90%; 
+        max-height: 100%; 
+    }
+
+    .container-objetivo{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        font-size: 17px;
+        
+
+    }
+
+    .container-objetivo label{
+        font-size: 15px;
+        
+
+    }
+
+    .container-button button{
+      width:57%;
+      height:54px;
+      font-size: 19px;
+
+    }
+
+
+
+
+}
+
+
+@media  (min-width:391px) and (max-width:430px){
+
+    .container-geral-formulario {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 700px; 
+        width:75%;
+        gap: 25px;
+        font-size: 14px;
+       
+    }
+
+
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        gap: 33px;
+        font-size: 20px;
+        max-width: 90%; 
+        max-height: 100%; 
+    }
+
+    .container-objetivo{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        font-size: 17px;
+        
+
+    }
+
+    .container-objetivo label{
+        font-size: 15px;
+        
+
+    }
+
+    .container-button button{
+      width:57%;
+      height:54px;
+      font-size: 19px;
+
+    }
+
+
+
+
+
+
+}
+
